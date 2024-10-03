@@ -1,0 +1,30 @@
+TypeScript is a statically typed superset of JavaScript, which means it adds optional static typing and other features to JavaScript. To run TypeScript code in a browser or a Node.js environment, it needs to be **compiled** to JavaScript.
+
+ Compilation Process of TypeScript:
+TypeScript code is compiled using the **TypeScript compiler (tsc)**, which converts `.ts` files into `.js` files that can be executed by JavaScript engines. The TypeScript compiler checks for type errors during compilation, ensuring type safety. Once compiled, the resulting JavaScript can be run in any environment that supports JavaScript.
+
+ Key Concepts:
+
+1. Compiler:
+   A compiler is a tool that translates code written in a high-level programming language (such as TypeScript, C, or C++) into another lower-level language (typically machine code or an intermediate language like JavaScript) so that it can be executed by a machine.
+   - Example: The TypeScript compiler (`tsc`) converts TypeScript into JavaScript.
+   - Purpose: It performs static analysis and error checking at compile-time, optimizing the code before execution.
+
+2. Interpreter:
+   An interpreter directly executes the instructions written in a programming language without converting them into machine code ahead of time. It reads the source code line by line, parses it, and executes it on the fly.
+   - Example: JavaScript is interpreted in browsers by engines like V8 (Chrome) or SpiderMonkey (Firefox).
+   - Purpose: Provides real-time execution of the code without requiring a separate compilation step.
+
+3. Transpiler:
+   A transpiler is a special type of compiler that translates code from one high-level programming language to another high-level language that has a similar level of abstraction.
+   - Example: TypeScript is transpiled to JavaScript since both are high-level languages but differ in features like type safety.
+   - Purpose: It is used when you want to transform code from one language version or dialect to another while maintaining the same level of abstraction.
+
+TypeScript Compilation Workflow:
+- TypeScript (`.ts`) → TypeScript Compiler (tsc) → JavaScript (`.js`)
+   - During this process, TypeScript checks for type errors, optimizes the code, and converts the TypeScript code into regular JavaScript that can be executed by browsers or Node.js.
+
+In summary:
+- Compiler: Converts high-level code to machine code or another low-level language.
+- Interpreter: Executes high-level code line by line without a compilation step.
+- Transpiler: Converts code from one high-level language (or version) to another high-level language.
